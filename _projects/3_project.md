@@ -7,6 +7,7 @@ importance: 3
 category: fun
 github: https://github.com/gcs0/neural-network-tut
 ---
+
 A lightweight Python learning project focused on neural network fundamentals.
 
 - Demonstrates manual forward-pass computations with `numpy`.

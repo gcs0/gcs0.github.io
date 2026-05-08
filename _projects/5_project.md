@@ -7,6 +7,7 @@ importance: 5
 category: work
 github: https://github.com/gcs0/gcs0.github.io
 ---
+
 This repository powers my public homepage.
 
 - Built with the al-folio Jekyll academic template.

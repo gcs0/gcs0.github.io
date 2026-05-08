@@ -7,6 +7,7 @@ importance: 1
 category: work
 github: https://github.com/gcs0/ModellingAA
 ---
+
 Research codebase for multi-feature authorship attribution.
 
 - Combines lexical, punctuation, POS, and n-gram features.

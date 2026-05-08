@@ -7,6 +7,7 @@ importance: 4
 category: fun
 github: https://github.com/gcs0/DMexercise
 ---
+
 Small R script project used for basic programming practice.
 
 - Reads user input from the console.
