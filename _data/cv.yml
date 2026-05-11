@@ -54,7 +54,7 @@ cv:
         url: https://aclanthology.org/2025.ranlp-1.123/
         summary: This paper explores the extent to which stylistic features contribute to the task of authorship attribution in forensic contexts. 
 
-      - title: WikiFirst: A Genre-Fixed, Content-controlled Corpus for Evaluating Content Effects in Authorship Analysis
+      - title: WikiFirst A Genre-Fixed, Content-controlled Corpus for Evaluating Content Effects in Authorship Analysis
         authors:
           - D Nguyen
           - GÇ Sat
