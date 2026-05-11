@@ -58,7 +58,7 @@ The project is structured as follows, focusing on the main components that you w
 
 ## Configuration
 
-The configuration file [_config.yml](_config.yml) contains the main configuration of the website. Most of the settings are self-explanatory and we tried to add as many comments as possible.
+The configuration file [\_config.yml](_config.yml) contains the main configuration of the website. Most of the settings are self-explanatory and we tried to add as many comments as possible.
 
 > Note that the `url` and `baseurl` settings are used to generate the links of the website, as explained in the [install instructions](INSTALL.md).
 
@@ -104,13 +104,14 @@ Your CV can be created using one of two formats. Choose the format that works be
 
 ## Creating New Pages
 
-You can create new pages by adding new Markdown files in the [_pages](_pages/) directory. Copy an existing page and modify it. You can choose the layout in the frontmatter.
+You can create new pages by adding new Markdown files in the [\_pages](_pages/) directory. Copy an existing page and modify it. You can choose the layout in the frontmatter.
 
 ## Creating New Blog Posts
 
-To create a new blog post, add a new Markdown file in the [_posts](_posts/) directory. The filename must follow the format: `YYYY-MM-DD-title.md`
+To create a new blog post, add a new Markdown file in the [\_posts](_posts/) directory. The filename must follow the format: `YYYY-MM-DD-title.md`
 
 Example:
+
 ```
 _posts/
 ├── 2026-05-11-my-first-post.md
@@ -119,19 +120,19 @@ _posts/
 
 ## Creating New Projects
 
-You can create new projects by adding new Markdown files in the [_projects](_projects/) directory.
+You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory.
 
 ## Adding News
 
-You can add news/announcements to the about page by adding new Markdown files in the [_news](_news/) directory.
+You can add news/announcements to the about page by adding new Markdown files in the [\_news](_news/) directory.
 
 ## Adding a New Publication
 
-To add publications, create a new entry in the [_bibliography/papers.bib](_bibliography/papers.bib) file. You can find BibTeX entries on Google Scholar or other academic databases.
+To add publications, create a new entry in the [\_bibliography/papers.bib](_bibliography/papers.bib) file. You can find BibTeX entries on Google Scholar or other academic databases.
 
 ### Author Annotation
 
-In publications, your name is identified by the `scholar:last_name` and `scholar:first_name` arrays in [_config.yml](_config.yml). For example:
+In publications, your name is identified by the `scholar:last_name` and `scholar:first_name` arrays in [\_config.yml](_config.yml). For example:
 
 ```yaml
 scholar:
@@ -139,15 +140,15 @@ scholar:
   first_name: [Albert, A.]
 ```
 
-Keep metadata about your co-authors in [_data/coauthors.yml](_data/coauthors.yml).
+Keep metadata about your co-authors in [\_data/coauthors.yml](_data/coauthors.yml).
 
 ## Changing Theme Color
 
-A variety of beautiful theme colors have been selected for you. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the [_sass/_variables.scss](_sass/_variables.scss) file.
+A variety of beautiful theme colors have been selected for you. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the [\_sass/\_variables.scss](_sass/_variables.scss) file.
 
 ## Customizing Layout and UI
 
-You can customize the layout and user interface in [_config.yml](_config.yml):
+You can customize the layout and user interface in [\_config.yml](_config.yml):
 
 ```yaml
 back_to_top: true
@@ -163,7 +164,7 @@ navbar_fixed: true
 
 ## Adding Social Media Information
 
-Social media information is managed through the [_data/socials.yml](_data/socials.yml) file. Edit this file to add your social profiles.
+Social media information is managed through the [\_data/socials.yml](_data/socials.yml) file. Edit this file to add your social profiles.
 
 The template supports icons from:
 
