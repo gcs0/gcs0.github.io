@@ -4,7 +4,7 @@ cv:
   email: s1312006@u-aizu.ac.jp
   location: Aizuwakamatsu, Japan
   image: ""
-  summary: Forensic AUthorship Attribution and other NLP research
+  summary: Forensic Authorship Attribution and other NLP research
 
   social_networks:
     - network: GitHub
@@ -20,7 +20,7 @@ cv:
         area: Computer Science
         studyType: Bachelor's
         start_date: 2023
-        end_date: 
+        end_date:
         score: ""
 
     Experience:
@@ -28,32 +28,30 @@ cv:
         position: Research Assistant
         location: Aizuwakamatsu, Japan
         start_date: 2024
-        end_date: 
+        end_date:
 
     Volunteer:
       - company: Assosiation of Turkish Students' in Japan
         position: Founder Vice President
         location: Japan
         start_date: 2025
-        end_date: 
+        end_date:
 
     Awards:
       - title: MEXT Undergraduate Scholarship
         date: 2023-2024
-
       - title: SAISUA Scholarship
         date: 2025
 
     Publications:
       - title: Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution
-        authors: 
-          - GÇ Sat 
-          - J Blake 
+        authors:
+          - GÇ Sat
+          - J Blake
           - E Pyshkin
         releaseDate: 2025
         url: https://aclanthology.org/2025.ranlp-1.123/
-        summary: This paper explores the extent to which stylistic features contribute to the task of authorship attribution in forensic contexts. 
-
+        summary: This paper explores the extent to which stylistic features contribute to the task of authorship attribution in forensic contexts.
       - title: WikiFirst A Genre-Fixed, Content-controlled Corpus for Evaluating Content Effects in Authorship Analysis
         authors:
           - D Nguyen
@@ -73,10 +71,8 @@ cv:
     Languages:
       - name: Turkish
         summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
-     
       - name: Japanese
         summary: "Intermediate"
 
@@ -90,12 +86,10 @@ cv:
         date: 2018-01-01
         issuer: Stanford University
         icon: fa-solid fa-location-dot
-
       - name: Quantum Computing
         date: 2018-01-01
         issuer: Stanford University
         icon: fa-solid fa-tag
-
       - name: Quantum Information
         date: 2018-01-01
         issuer: Stanford University
@@ -113,8 +107,7 @@ cv:
     References:
       - name: Professor John Doe
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus nec ligula.
       - name: Professor Jane Smith
         icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus nec ligula.
