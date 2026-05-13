@@ -3,7 +3,7 @@ cv:
   label: "Research Assistant & Undergraduate Student"
   email: "s1312006@u-aizu.ac.jp"
   location: "Aizuwakamatsu, Japan"
-  image: "" # or e.g. "assets/img/profile.jpg"
+  image: "assets/img/citations.jpg"
   summary: >
     I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing.
 
@@ -31,7 +31,7 @@ cv:
         end_date: ""
         summary: >
           Engaged in research on forensic authorship attribution and neural language models.
-    Volunteer:
+    Volunteering:
       - company: "Association of Turkish Students in Japan"
         position: "Founder Vice President"
         location: "Japan"
