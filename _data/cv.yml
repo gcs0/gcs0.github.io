@@ -5,7 +5,7 @@ cv:
   location: "Aizuwakamatsu, Japan"
   image: ""
   summary: >
-    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing. My academic journey has provided hands-on research experience and engagement in advanced fields of computational linguistics and AI.
+    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing. My academic journey has provided hands-on research experience and engagement in advanced fields of computational linguistics and artificial intelligence.
 
   social_networks:
     - network: "GitHub"
@@ -25,6 +25,7 @@ cv:
         score: ""
         summary: >
           Pursuing a Bachelor of Computer Science with a focus on natural language processing, forensic authorship attribution, and artificial intelligence. Gained hands-on research experience and engaged in interdisciplinary academic work.
+
     Experience:
       - company: "University of Aizu"
         position: "Research Assistant"
@@ -32,7 +33,8 @@ cv:
         start_date: "2024"
         end_date: ""
         summary: >
-          Engaged in research on forensic authorship attribution and neural language models. Contributed to literature reviews, algorithm implementation, data annotation, and computational experiments.
+          Engaged in cutting-edge research on forensic authorship attribution and neural language models. Responsibilities include literature review, implementation of NLP algorithms, data annotation, and computational experiments.
+
     Volunteer:
       - company: "Association of Turkish Students in Japan"
         position: "Founder Vice President"
@@ -41,6 +43,7 @@ cv:
         end_date: ""
         summary: >
           Co-founded the association to foster community among Turkish students in Japan. Organized networking events, academic seminars, and cultural exchanges.
+
     Awards:
       - title: "MEXT Undergraduate Scholarship"
         date: "2023-2024"
@@ -49,7 +52,8 @@ cv:
       - title: "SAISUA Scholarship"
         date: "2025"
         summary: >
-          Recognized by the Support Association for International Students at the University of Aizu for academic excellence and community engagement.
+          Recognized and supported by the Support Association for International Students at the University of Aizu for academic excellence and community engagement.
+
     Publications:
       - title: "Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution"
         authors:
@@ -59,7 +63,7 @@ cv:
         release_date: "2025"
         url: "https://aclanthology.org/2025.ranlp-1.123/"
         summary: >
-          Explored how stylistic linguistic features affect the accuracy of authorship attribution in a forensic context. Emphasized feature engineering for forensic linguistics.
+          Explored how stylistic linguistic features affect the accuracy of authorship attribution in a forensic context. Emphasized the importance of feature engineering for forensic linguistics.
       - title: "WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis"
         authors:
           - "D. Nguyen"
@@ -69,7 +73,8 @@ cv:
         release_date: "2026"
         url: "https://aclanthology.org/2026.latechclfl-1.31/"
         summary: >
-          Introduced WikiFirst, a dataset for systematically assessing content influences in authorship similarity research under controlled genre conditions.
+          Introduced WikiFirst, a new dataset for systematically assessing content influences in authorship similarity research under controlled genre conditions.
+
     Skills:
       - name: "Natural Language Processing"
         level: "Proficient"
@@ -83,6 +88,7 @@ cv:
         level: "Proficient"
         icon: "fa-solid fa-message"
         keywords: "Academic writing, technical documentation, conference presentations"
+
     Languages:
       - name: "Turkish"
         summary: "Native speaker"
@@ -90,6 +96,7 @@ cv:
         summary: "Fluent (C1)"
       - name: "Japanese"
         summary: "Intermediate (JLPT N3 equivalent)"
+
     Interests:
       - name: "Computational Linguistics"
         icon: "fa-solid fa-spell-check"
@@ -97,6 +104,7 @@ cv:
       - name: "Community Service & Leadership"
         icon: "fa-solid fa-users"
         keywords: "Student organizing, intercultural exchange"
+
     Certificates:
       - name: "Japanese Language Proficiency - N4"
         date: "2022"
@@ -106,6 +114,7 @@ cv:
         date: "2023"
         issuer: "IB"
         icon: "fa-solid fa-tag"
+
     Projects:
       - name: "Forensic Authorship Attribution"
         summary: >
