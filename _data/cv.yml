@@ -4,7 +4,8 @@ cv:
   email: s1312006@u-aizu.ac.jp
   location: Aizuwakamatsu, Japan
   image: ""
-  summary: Forensic Authorship Attribution and other NLP research
+  summary: >
+    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing. My academic journey has been driven by curiosity, rigor, and a desire to contribute to the advancement of computational linguistics and artificial intelligence.
 
   social_networks:
     - network: GitHub
@@ -13,35 +14,46 @@ cv:
       username: cagataysat
 
   sections:
+
     Education:
       - institution: University of Aizu
         location: Aizuwakamatsu, Japan
         url: https://u-aizu.ac.jp/en/
         area: Computer Science
-        studyType: Bachelor's
+        studyType: Bachelor’s Degree
         start_date: 2023
-        end_date:
+        end_date: ""
         score: ""
+        summary: >
+          Pursuing a Bachelor of Computer Science with a focus on natural language processing, forensic authorship attribution, and artificial intelligence. Gained hands-on research experience and engaged in collaborative academic projects.
 
     Experience:
       - company: University of Aizu
         position: Research Assistant
         location: Aizuwakamatsu, Japan
         start_date: 2024
-        end_date:
+        end_date: ""
+        summary: >
+          Engaged in cutting-edge research on forensic authorship attribution and neural language models. Responsibilities include literature review, implementation of NLP algorithms, data annotation, and collaborative research publication.
 
     Volunteer:
-      - company: Assosiation of Turkish Students' in Japan
+      - company: Association of Turkish Students in Japan
         position: Founder Vice President
         location: Japan
         start_date: 2025
-        end_date:
+        end_date: ""
+        summary: >
+          Co-founded the association to foster community among Turkish students in Japan. Organized networking events, academic seminars, and cultural exchanges.
 
     Awards:
       - title: MEXT Undergraduate Scholarship
         date: 2023-2024
+        summary: >
+          Awarded by the Japanese Ministry of Education (MEXT) for outstanding academic achievement and research potential as an international undergraduate student.
       - title: SAISUA Scholarship
         date: 2025
+        summary: >
+          Recognized and supported by the Support Association for International Students at the University of Aizu for academic excellence and community engagement.
 
     Publications:
       - title: Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution
@@ -51,8 +63,10 @@ cv:
           - E Pyshkin
         releaseDate: 2025
         url: https://aclanthology.org/2025.ranlp-1.123/
-        summary: This paper explores the extent to which stylistic features contribute to the task of authorship attribution in forensic contexts.
-      - title: WikiFirst A Genre-Fixed, Content-controlled Corpus for Evaluating Content Effects in Authorship Analysis
+        summary: >
+          Explored how stylistic linguistic features affect the accuracy of authorship attribution in a forensic context. Emphasized the importance of feature engineering for forensic linguistics.
+
+      - title: WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis
         authors:
           - D Nguyen
           - GÇ Sat
@@ -60,54 +74,62 @@ cv:
           - J Blake
         releaseDate: 2026
         url: https://aclanthology.org/2026.latechclfl-1.31/
-        summary: This paper presents the design and construction of WikiFirst, a corpus for investigating the impact of content variation on authorship similarity under a fixed genre.
+        summary: >
+          Introduced WikiFirst, a new dataset for systematically assessing content influences in authorship similarity research under controlled genre conditions.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Natural Language Processing
+        level: Proficient
+        icon: fa-solid fa-language
+        keywords: Text classification, feature engineering, data annotation, model evaluation
+
+      - name: Python Programming
+        level: Advanced
+        icon: fa-brands fa-python
+        keywords: NumPy, pandas, scikit-learn, NLP libraries
+
+      - name: Scientific Communication
+        level: Proficient
+        icon: fa-solid fa-message
+        keywords: Academic writing, technical documentation, conference presentations
+
+      - name: Quantum Computing
+        level: Intermediate
+        icon: fa-solid fa-atom
+        keywords: Quantum algorithms, quantum information, basics of Qiskit
 
     Languages:
       - name: Turkish
-        summary: "Native speaker"
+        summary: Native speaker
       - name: English
-        summary: "Fluent"
+        summary: Fluent (C1)
       - name: Japanese
-        summary: "Intermediate"
+        summary: Intermediate (JLPT N3 equivalent)
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Computational Linguistics
+        icon: fa-solid fa-spell-check
+        keywords: Authorship attribution, corpus linguistics, AI ethics
+
+      - name: Community Service & Leadership
+        icon: fa-solid fa-users
+        keywords: Student organizing, intercultural exchange
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
+      - name: Japanese Language Proficiency - N4
+        date: 2022
+        issuer: JLPT
         icon: fa-solid fa-location-dot
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
+
+      - name: International Baccalaureate Diploma
+        date: 2023
+        issuer: IB
         icon: fa-solid fa-tag
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Forensic Authorship Attribution
+        summary: >
+          Developing a robust, interpretable forensic authorship attribution framework that works on different genre and content areas.
+        start_date: 2024
+        end_date: 2027
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus nec ligula.
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus nec ligula.
