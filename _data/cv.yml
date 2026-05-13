@@ -5,12 +5,14 @@ cv:
   location: "Aizuwakamatsu, Japan"
   image: ""
   summary: >
-    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing. My academic journey has...
+    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing. My academic journey has provided hands-on research experience and engagement in advanced fields of computational linguistics and AI.
+
   social_networks:
     - network: "GitHub"
       username: "gcs0"
     - network: "LinkedIn"
       username: "cagataysat"
+
   sections:
     Education:
       - institution: "University of Aizu"
@@ -22,7 +24,7 @@ cv:
         end_date: ""
         score: ""
         summary: >
-          Pursuing a Bachelor of Computer Science with a focus on natural language processing, forensic authorship attribution, and artificial intelligence. Gained hands-on research experience and eng...
+          Pursuing a Bachelor of Computer Science with a focus on natural language processing, forensic authorship attribution, and artificial intelligence. Gained hands-on research experience and engaged in interdisciplinary academic work.
     Experience:
       - company: "University of Aizu"
         position: "Research Assistant"
@@ -30,7 +32,7 @@ cv:
         start_date: "2024"
         end_date: ""
         summary: >
-          Engaged in cutting-edge research on forensic authorship attribution and neural language models. Responsibilities include literature review, implementation of NLP algorithms, data annotation,...
+          Engaged in research on forensic authorship attribution and neural language models. Contributed to literature reviews, algorithm implementation, data annotation, and computational experiments.
     Volunteer:
       - company: "Association of Turkish Students in Japan"
         position: "Founder Vice President"
@@ -47,7 +49,7 @@ cv:
       - title: "SAISUA Scholarship"
         date: "2025"
         summary: >
-          Recognized and supported by the Support Association for International Students at the University of Aizu for academic excellence and community engagement.
+          Recognized by the Support Association for International Students at the University of Aizu for academic excellence and community engagement.
     Publications:
       - title: "Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution"
         authors:
@@ -57,7 +59,7 @@ cv:
         release_date: "2025"
         url: "https://aclanthology.org/2025.ranlp-1.123/"
         summary: >
-          Explored how stylistic linguistic features affect the accuracy of authorship attribution in a forensic context. Emphasized the importance of feature engineering for forensic linguistics.
+          Explored how stylistic linguistic features affect the accuracy of authorship attribution in a forensic context. Emphasized feature engineering for forensic linguistics.
       - title: "WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis"
         authors:
           - "D. Nguyen"
@@ -67,7 +69,7 @@ cv:
         release_date: "2026"
         url: "https://aclanthology.org/2026.latechclfl-1.31/"
         summary: >
-          Introduced WikiFirst, a new dataset for systematically assessing content influences in authorship similarity research under controlled genre conditions.
+          Introduced WikiFirst, a dataset for systematically assessing content influences in authorship similarity research under controlled genre conditions.
     Skills:
       - name: "Natural Language Processing"
         level: "Proficient"
