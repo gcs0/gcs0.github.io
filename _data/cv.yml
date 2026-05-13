@@ -81,10 +81,6 @@ cv:
         level: "Proficient"
         icon: "fa-solid fa-message"
         keywords: "Academic writing, technical documentation, conference presentations"
-      - name: "Quantum Computing"
-        level: "Intermediate"
-        icon: "fa-solid fa-atom"
-        keywords: "Quantum algorithms, quantum information, basics of Qiskit"
     Languages:
       - name: "Turkish"
         summary: "Native speaker"
