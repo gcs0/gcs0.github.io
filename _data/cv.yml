@@ -3,9 +3,9 @@ cv:
   label: "Research Assistant & Undergraduate Student"
   email: "s1312006@u-aizu.ac.jp"
   location: "Aizuwakamatsu, Japan"
-  image: ""
+  image: "" # or e.g. "assets/img/profile.jpg"
   summary: >
-    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing. My academic journey has provided hands-on research experience and engagement in advanced fields of computational linguistics and artificial intelligence.
+    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, natural language processing, and quantum computing.
 
   social_networks:
     - network: "GitHub"
@@ -17,15 +17,12 @@ cv:
     Education:
       - institution: "University of Aizu"
         location: "Aizuwakamatsu, Japan"
-        url: "https://u-aizu.ac.jp/en/"
         area: "Computer Science"
         studyType: "Bachelor's Degree"
         start_date: "2023"
         end_date: ""
-        score: ""
         summary: >
-          Pursuing a Bachelor of Computer Science with a focus on natural language processing, forensic authorship attribution, and artificial intelligence. Gained hands-on research experience and engaged in interdisciplinary academic work.
-
+          Pursuing a BSc with a focus on natural language processing, forensic authorship attribution, and artificial intelligence.
     Experience:
       - company: "University of Aizu"
         position: "Research Assistant"
@@ -33,8 +30,7 @@ cv:
         start_date: "2024"
         end_date: ""
         summary: >
-          Engaged in cutting-edge research on forensic authorship attribution and neural language models. Responsibilities include literature review, implementation of NLP algorithms, data annotation, and computational experiments.
-
+          Engaged in research on forensic authorship attribution and neural language models.
     Volunteer:
       - company: "Association of Turkish Students in Japan"
         position: "Founder Vice President"
@@ -42,45 +38,35 @@ cv:
         start_date: "2025"
         end_date: ""
         summary: >
-          Co-founded the association to foster community among Turkish students in Japan. Organized networking events, academic seminars, and cultural exchanges.
-
+          Co-founded the association to foster community among Turkish students in Japan.
     Awards:
       - title: "MEXT Undergraduate Scholarship"
         date: "2023-2024"
         summary: >
-          Awarded by the Japanese Ministry of Education (MEXT) for outstanding academic achievement and research potential as an international undergraduate student.
+          Awarded by the Japanese Ministry of Education (MEXT) for academic achievement.
       - title: "SAISUA Scholarship"
         date: "2025"
         summary: >
-          Recognized and supported by the Support Association for International Students at the University of Aizu for academic excellence and community engagement.
-
+          Recognized by SAISUA for academic excellence at the University of Aizu.
     Publications:
       - title: "Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution"
-        authors:
-          - "G. Çağatay Sat"
-          - "J. Blake"
-          - "E. Pyshkin"
+        authors: ["G. Çağatay Sat", "J. Blake", "E. Pyshkin"]
         release_date: "2025"
         url: "https://aclanthology.org/2025.ranlp-1.123/"
         summary: >
-          Explored how stylistic linguistic features affect the accuracy of authorship attribution in a forensic context. Emphasized the importance of feature engineering for forensic linguistics.
+          Explored stylistic features in forensic attribution.
       - title: "WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis"
-        authors:
-          - "D. Nguyen"
-          - "G. Çağatay Sat"
-          - "E. Pyshkin"
-          - "J. Blake"
+        authors: ["D. Nguyen", "G. Çağatay Sat", "E. Pyshkin", "J. Blake"]
         release_date: "2026"
         url: "https://aclanthology.org/2026.latechclfl-1.31/"
         summary: >
-          Introduced WikiFirst, a new dataset for systematically assessing content influences in authorship similarity research under controlled genre conditions.
-
+          Introduced WikiFirst for authorship research.
     Skills:
-      - name: "Natural Language Processing"
+      - name: "NLP"
         level: "Proficient"
         icon: "fa-solid fa-language"
         keywords: "Text classification, feature engineering, data annotation, model evaluation"
-      - name: "Python Programming"
+      - name: "Python"
         level: "Advanced"
         icon: "fa-brands fa-python"
         keywords: "NumPy, pandas, scikit-learn, NLP libraries"
@@ -88,23 +74,20 @@ cv:
         level: "Proficient"
         icon: "fa-solid fa-message"
         keywords: "Academic writing, technical documentation, conference presentations"
-
     Languages:
       - name: "Turkish"
-        summary: "Native speaker"
+        summary: "Native"
       - name: "English"
         summary: "Fluent (C1)"
       - name: "Japanese"
-        summary: "Intermediate (JLPT N3 equivalent)"
-
+        summary: "Intermediate (JLPT N3)"
     Interests:
       - name: "Computational Linguistics"
         icon: "fa-solid fa-spell-check"
         keywords: "Authorship attribution, corpus linguistics, AI ethics"
-      - name: "Community Service & Leadership"
+      - name: "Community Service"
         icon: "fa-solid fa-users"
         keywords: "Student organizing, intercultural exchange"
-
     Certificates:
       - name: "Japanese Language Proficiency - N4"
         date: "2022"
@@ -114,10 +97,9 @@ cv:
         date: "2023"
         issuer: "IB"
         icon: "fa-solid fa-tag"
-
     Projects:
       - name: "Forensic Authorship Attribution"
         summary: >
-          Developing a robust, interpretable forensic authorship attribution framework that works on different genre and content areas.
+          Developing a robust, interpretable framework for forensic authorship attribution across genres.
         start_date: "2024"
         end_date: "2027"
