@@ -1,105 +1,104 @@
-cv:
-  name: "G. Çağatay Sat"
-  label: "Research Assistant & Undergraduate Student"
-  email: "s1312006@u-aizu.ac.jp"
-  location: "Aizuwakamatsu, Japan"
-  image: "assets/img/citations.jpg"
-  summary: >
-    I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, and natural language processing.
+name: "G. Çağatay Sat"
+label: "Research Assistant & Undergraduate Student"
+email: "s1312006@u-aizu.ac.jp"
+location: "Aizuwakamatsu, Japan"
+image: "assets/img/citations.jpg"
+summary: >
+  I am a motivated undergraduate student and research assistant with a strong interest in forensic authorship attribution, and natural language processing.
 
-  social_networks:
-    - network: "GitHub"
-      username: "gcs0"
-    - network: "LinkedIn"
-      username: "cagataysat"
+social_networks:
+  - network: "GitHub"
+    username: "gcs0"
+  - network: "LinkedIn"
+    username: "cagataysat"
 
-  sections:
-    Education:
-      - institution: "University of Aizu"
-        location: "Aizuwakamatsu, Japan"
-        area: "Computer Science"
-        studyType: "Bachelor's Degree"
-        start_date: "2023"
-        end_date: ""
-        summary: >
-          Pursuing a BSc with a focus on natural language processing, forensic authorship attribution, and artificial intelligence.
-    Experience:
-      - company: "University of Aizu"
-        position: "Research Assistant"
-        location: "Aizuwakamatsu, Japan"
-        start_date: "2024"
-        end_date: ""
-        summary: >
-          Engaged in research on forensic authorship attribution and neural language models.
-    Volunteering:
-      - company: "Association of Turkish Students in Japan"
-        position: "Founder Vice President"
-        location: "Japan"
-        start_date: "2025"
-        end_date: ""
-        summary: >
-          Co-founded the association to foster community among Turkish students in Japan.
-    Awards:
-      - title: "MEXT Undergraduate Scholarship"
-        date: "2023-2024"
-        summary: >
-          Awarded by the Japanese Ministry of Education (MEXT) for academic achievement.
-      - title: "SAISUA Scholarship"
-        date: "2025"
-        summary: >
-          Recognized by SAISUA for academic excellence at the University of Aizu.
-    Publications:
-      - title: "Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution"
-        authors: ["G. Çağatay Sat", "J. Blake", "E. Pyshkin"]
-        release_date: "2025"
-        url: "https://aclanthology.org/2025.ranlp-1.123/"
-        summary: >
-          Explored stylistic features in forensic attribution.
-      - title: "WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis"
-        authors: ["D. Nguyen", "G. Çağatay Sat", "E. Pyshkin", "J. Blake"]
-        release_date: "2026"
-        url: "https://aclanthology.org/2026.latechclfl-1.31/"
-        summary: >
-          Introduced WikiFirst for authorship research.
-    Skills:
-      - name: "NLP"
-        level: "Proficient"
-        icon: "fa-solid fa-language"
-        keywords: "Text classification, feature engineering, data annotation, model evaluation"
-      - name: "Python"
-        level: "Advanced"
-        icon: "fa-brands fa-python"
-        keywords: "NumPy, pandas, scikit-learn, NLP libraries"
-      - name: "Scientific Communication"
-        level: "Proficient"
-        icon: "fa-solid fa-message"
-        keywords: "Academic writing, technical documentation, conference presentations"
-    Languages:
-      - name: "Turkish"
-        summary: "Native"
-      - name: "English"
-        summary: "Fluent (C1)"
-      - name: "Japanese"
-        summary: "Intermediate (JLPT N3)"
-    Interests:
-      - name: "Computational Linguistics"
-        icon: "fa-solid fa-spell-check"
-        keywords: "Authorship attribution, corpus linguistics, AI ethics"
-      - name: "Community Service"
-        icon: "fa-solid fa-users"
-        keywords: "Student organizing, intercultural exchange"
-    Certificates:
-      - name: "Japanese Language Proficiency - N4"
-        date: "2022"
-        issuer: "JLPT"
-        icon: "fa-solid fa-location-dot"
-      - name: "International Baccalaureate Diploma"
-        date: "2023"
-        issuer: "IB"
-        icon: "fa-solid fa-tag"
-    Projects:
-      - name: "Forensic Authorship Attribution"
-        summary: >
-          Developing a robust, interpretable framework for forensic authorship attribution across genres.
-        start_date: "2024"
-        end_date: "2027"
+sections:
+  Education:
+    - institution: "University of Aizu"
+      location: "Aizuwakamatsu, Japan"
+      area: "Computer Science"
+      studyType: "Bachelor's Degree"
+      start_date: "2023"
+      end_date: ""
+      summary: >
+        Pursuing a BSc with a focus on natural language processing, forensic authorship attribution, and artificial intelligence.
+  Experience:
+    - company: "University of Aizu"
+      position: "Research Assistant"
+      location: "Aizuwakamatsu, Japan"
+      start_date: "2024"
+      end_date: ""
+      summary: >
+        Engaged in research on forensic authorship attribution and neural language models.
+  Volunteering:
+    - company: "Association of Turkish Students in Japan"
+      position: "Founder Vice President"
+      location: "Japan"
+      start_date: "2025"
+      end_date: ""
+      summary: >
+        Co-founded the association to foster community among Turkish students in Japan.
+  Awards:
+    - title: "MEXT Undergraduate Scholarship"
+      date: "2023-2024"
+      summary: >
+        Awarded by the Japanese Ministry of Education (MEXT) for academic achievement.
+    - title: "SAISUA Scholarship"
+      date: "2025"
+      summary: >
+        Recognized by SAISUA for academic excellence at the University of Aizu.
+  Publications:
+    - title: "Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution"
+      authors: ["G. Çağatay Sat", "J. Blake", "E. Pyshkin"]
+      release_date: "2025"
+      url: "https://aclanthology.org/2025.ranlp-1.123/"
+      summary: >
+        Explored stylistic features in forensic attribution.
+    - title: "WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis"
+      authors: ["D. Nguyen", "G. Çağatay Sat", "E. Pyshkin", "J. Blake"]
+      release_date: "2026"
+      url: "https://aclanthology.org/2026.latechclfl-1.31/"
+      summary: >
+        Introduced WikiFirst for authorship research.
+  Skills:
+    - name: "NLP"
+      level: "Proficient"
+      icon: "fa-solid fa-language"
+      keywords: "Text classification, feature engineering, data annotation, model evaluation"
+    - name: "Python"
+      level: "Advanced"
+      icon: "fa-brands fa-python"
+      keywords: "NumPy, pandas, scikit-learn, NLP libraries"
+    - name: "Scientific Communication"
+      level: "Proficient"
+      icon: "fa-solid fa-message"
+      keywords: "Academic writing, technical documentation, conference presentations"
+  Languages:
+    - name: "Turkish"
+      summary: "Native"
+    - name: "English"
+      summary: "Fluent (C1)"
+    - name: "Japanese"
+      summary: "Intermediate (JLPT N3)"
+  Interests:
+    - name: "Computational Linguistics"
+      icon: "fa-solid fa-spell-check"
+      keywords: "Authorship attribution, corpus linguistics, AI ethics"
+    - name: "Community Service"
+      icon: "fa-solid fa-users"
+      keywords: "Student organizing, intercultural exchange"
+  Certificates:
+    - name: "Japanese Language Proficiency - N4"
+      date: "2022"
+      issuer: "JLPT"
+      icon: "fa-solid fa-location-dot"
+    - name: "International Baccalaureate Diploma"
+      date: "2023"
+      issuer: "IB"
+      icon: "fa-solid fa-tag"
+  Projects:
+    - name: "Forensic Authorship Attribution"
+      summary: >
+        Developing a robust, interpretable framework for forensic authorship attribution across genres.
+      start_date: "2024"
+      end_date: "2027"
