@@ -13,8 +13,9 @@
   --color-accent: #8a1538;      /* deep burgundy — tasteful academic accent */
   --color-accent-soft: #f3e7ec;
 
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-serif: "Lora", Georgia, "Times New Roman", serif;
+  /* Updated Premium Fonts */
+  --font-sans: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Merriweather", Georgia, "Times New Roman", serif;
 
   --maxw: 820px;
   --radius: 8px;
