@@ -25,6 +25,56 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    /* ── Publication link buttons ── */
+    .pub__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-top: .6rem;
+    }
+    .pub__btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      padding: .25rem .65rem;
+      font-size: .78rem;
+      font-family: inherit;
+      font-weight: 600;
+      border-radius: 4px;
+      text-decoration: none;
+      border: 1.5px solid currentColor;
+      transition: background .18s, color .18s;
+      white-space: nowrap;
+    }
+    .pub__btn--paper   { color: #1d4ed8; }
+    .pub__btn--pdf     { color: #b91c1c; }
+    .pub__btn--doi     { color: #065f46; }
+    .pub__btn--scholar { color: #4338ca; }
+    .pub__btn--rg      { color: #00838F; }
+    .pub__btn--slides  { color: #c2410c; }
+
+    .pub__btn:hover {
+      color: #fff;
+    }
+    .pub__btn--paper:hover   { background: #1d4ed8; border-color: #1d4ed8; }
+    .pub__btn--pdf:hover     { background: #b91c1c; border-color: #b91c1c; }
+    .pub__btn--doi:hover     { background: #065f46; border-color: #065f46; }
+    .pub__btn--scholar:hover { background: #4338ca; border-color: #4338ca; }
+    .pub__btn--rg:hover      { background: #00838F; border-color: #00838F; }
+    .pub__btn--slides:hover  { background: #c2410c; border-color: #c2410c; }
+
+    .pub__title { margin-bottom: .2rem; }
+
+    /* ── Talk link row ── */
+    .talk__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin-top: .55rem;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header" id="top">
@@ -77,6 +127,12 @@
             <a href="https://www.linkedin.com/in/cagataysat" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
               <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=sZZq_QIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-24L0 9.5h3.6v9.6c0 .5.4 1 1 1h14.8c.6 0 1-.5 1-1V9.5H24L12 0Zm1.8 16.8h-3.6v-5.4h3.6v5.4Z"/></svg>
+              <span>Google Scholar</span>
             </a>
           </li>
           <li>
@@ -163,20 +219,75 @@
       <div class="container">
         <h2 class="section__title"><span class="section__num">03</span> Publications</h2>
         <ol class="pub-list">
+
           <li class="pub">
             <span class="pub__year">2026</span>
             <div class="pub__body">
-              <h3 class="pub__title">WikiFirst: A Genre-Fixed Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis</h3>
-              <p class="pub__authors">D. Nguyen, G. Çağatay Sat, E. Pyshkin, J. Blake <span class="pub__note">— forthcoming</span></p>
+              <h3 class="pub__title">
+                <a href="https://aclanthology.org/2026.latechclfl-1.31/"
+                   target="_blank" rel="noopener noreferrer">
+                  WikiFirst: A Genre-Fixed, Content-Controlled Corpus for Evaluating Content Effects in Authorship Analysis
+                </a>
+              </h3>
+              <p class="pub__authors">
+                D. Nguyen, G. Çağatay Sat, E. Pyshkin, J. Blake
+                <br>
+                <em>Proceedings of the 10th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL @ EACL 2026) · Rabat, Morocco · pp. 323–327</em>
+              </p>
+              <div class="pub__links">
+                <a class="pub__btn pub__btn--paper"
+                   href="https://aclanthology.org/2026.latechclfl-1.31/"
+                   target="_blank" rel="noopener noreferrer">
+                  📄 Paper
+                </a>
+                <a class="pub__btn pub__btn--pdf"
+                   href="https://aclanthology.org/2026.latechclfl-1.31.pdf"
+                   target="_blank" rel="noopener noreferrer">
+                  PDF
+                </a>
+                <a class="pub__btn pub__btn--doi"
+                   href="https://doi.org/10.18653/v1/2026.latechclfl-1.31"
+                   target="_blank" rel="noopener noreferrer">
+                  DOI
+                </a>
+                <a class="pub__btn pub__btn--scholar"
+                   href="https://scholar.google.com/citations?user=sZZq_QIAAAAJ&hl=en"
+                   target="_blank" rel="noopener noreferrer">
+                  Google Scholar
+                </a>
+              </div>
             </div>
           </li>
+
           <li class="pub">
             <span class="pub__year">2025</span>
             <div class="pub__body">
-              <h3 class="pub__title">Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution</h3>
-              <p class="pub__authors">G. Çağatay Sat, J. Blake, E. Pyshkin</p>
+              <h3 class="pub__title">
+                <a href="https://www.researchgate.net/publication/396700063_Modelling_the_Relative_Contributions_of_Stylistic_Features_in_Forensic_Authorship_Attribution"
+                   target="_blank" rel="noopener noreferrer">
+                  Modelling the Relative Contributions of Stylistic Features in Forensic Authorship Attribution
+                </a>
+              </h3>
+              <p class="pub__authors">
+                G. Çağatay Sat, J. Blake, E. Pyshkin
+                <br>
+                <em>Poster presented at Recent Advances in Natural Language Processing (RANLP 2025) · Varna, Bulgaria</em>
+              </p>
+              <div class="pub__links">
+                <a class="pub__btn pub__btn--rg"
+                   href="https://www.researchgate.net/publication/396700063_Modelling_the_Relative_Contributions_of_Stylistic_Features_in_Forensic_Authorship_Attribution"
+                   target="_blank" rel="noopener noreferrer">
+                  ResearchGate
+                </a>
+                <a class="pub__btn pub__btn--scholar"
+                   href="https://scholar.google.com/citations?user=sZZq_QIAAAAJ&hl=en"
+                   target="_blank" rel="noopener noreferrer">
+                  Google Scholar
+                </a>
+              </div>
             </div>
           </li>
+
         </ol>
       </div>
     </section>
@@ -202,7 +313,7 @@
         </div>
       </div>
     </section>
-    
+
     <section class="section" id="talks">
       <div class="container">
         <h2 class="section__title"><span class="section__num">05</span> Talks &amp; Outreach</h2>
@@ -210,22 +321,20 @@
           <article class="entry">
             <div class="entry__meta">2026</div>
             <div class="entry__body">
-            <h3 class="entry__title">Public Lecture: AI &amp; Why It Hallucinates</h3>
-            <p class="entry__sub">University of Aizu (with Tenshi Munasinghe)</p>
-
-            <p class="entry__text">
+              <h3 class="entry__title">Public Lecture: AI &amp; Why It Hallucinates</h3>
+              <p class="entry__sub">University of Aizu (with Tenshi Munasinghe)</p>
+              <p class="entry__text">
                 Delivered a public university lecture in both Japanese and English, breaking down the mechanics of large language models and exploring the phenomenon and causes of AI hallucinations.
-            </p>
-
-            <p class="entry__text">
-            <a href="https://docs.google.com/presentation/d/13EOC1dXpfovUPg3NQGsyjwNfPg9bgqrebgdRmP9t8Kk/edit?usp=sharing"
-               target="_blank"
-               rel="noopener noreferrer">
-              📑 View lecture slides
-          </a>
-          </p>
-        </div>
-        </article>
+              </p>
+              <div class="talk__links">
+                <a class="pub__btn pub__btn--slides"
+                   href="https://docs.google.com/presentation/d/13EOC1dXpfovUPg3NQGsyjwNfPg9bgqrebgdRmP9t8Kk/edit?usp=sharing"
+                   target="_blank" rel="noopener noreferrer">
+                  📑 Lecture Slides
+                </a>
+              </div>
+            </div>
+          </article>
           <article class="entry">
             <div class="entry__meta">2022</div>
             <div class="entry__body">
@@ -319,6 +428,12 @@
             <a href="https://www.linkedin.com/in/cagataysat" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
               <span>in/cagataysat</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=sZZq_QIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-24L0 9.5h3.6v9.6c0 .5.4 1 1 1h14.8c.6 0 1-.5 1-1V9.5H24L12 0Zm1.8 16.8h-3.6v-5.4h3.6v5.4Z"/></svg>
+              <span>Google Scholar</span>
             </a>
           </li>
         </ul>
