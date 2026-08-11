@@ -76,6 +76,48 @@
     }
 
     /* ── Nav overrides: spacing + beautify ── */
+    @media (min-width: 721px) {
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0 1px 12px rgba(0,0,0,.06);
+      }
+
+      .nav {
+        padding-top: .85rem;
+        padding-bottom: .85rem;
+      }
+
+      .nav__brand {
+        padding-right: 1.5rem;
+        border-right: 2px solid #e5e7eb;
+      }
+
+      .nav__menu {
+        flex-wrap: wrap;
+        gap: .25rem;
+      }
+
+      .nav__menu li a {
+        padding: .4rem .6rem;
+        font-size: .88rem;
+        font-weight: 500;
+        border-radius: 5px;
+        transition: background .18s, color .18s;
+      }
+
+      .nav__menu li a:hover,
+      .nav__menu li a.active {
+        background: #f3e7ec;
+        color: #8a1538;
+      }
+    }
+
     .site-header {
       position: sticky;
       top: 0;
@@ -91,12 +133,11 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 2rem;
       padding-top: .85rem;
       padding-bottom: .85rem;
-      gap: 2rem;
     }
 
-    /* Brand: visually distinct from menu links */
     .nav__brand {
       font-family: 'Merriweather', Georgia, serif;
       font-weight: 700;
@@ -106,42 +147,24 @@
       text-decoration: none;
       white-space: nowrap;
       flex-shrink: 0;
-      padding-right: 1.5rem;           /* ← the gap you asked for */
-      border-right: 2px solid #e5e7eb;
       transition: color .2s;
     }
-    .nav__brand:hover { color: #2563eb; }
+    .nav__brand:hover { color: #8a1538; }
 
-    /* Menu */
     .nav__menu {
       display: flex;
-      flex-wrap: nowrap;
       align-items: center;
-      gap: 0;
+      gap: .25rem;
       list-style: none;
       margin: 0;
       padding: 0;
-      overflow: hidden;
     }
 
     .nav__menu li a {
       display: block;
-      padding: .3rem .45rem;
-      font-size: .78rem;
-      font-weight: 600;
-      letter-spacing: .02em;
-      text-transform: uppercase;
       color: #4b5563;
       text-decoration: none;
-      border-radius: 5px;
       white-space: nowrap;
-      transition: background .18s, color .18s;
-    }
-
-    .nav__menu li a:hover,
-    .nav__menu li a.active {
-      background: #eff6ff;
-      color: #1d4ed8;
     }
   </style>
 </head>
@@ -162,6 +185,7 @@
         <li><a href="#talks">Talks</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#awards">Awards</a></li>
+        <li><a href="#memberships">Memberships</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -500,9 +524,24 @@
       </div>
     </section>
 
+    <section class="section section--alt" id="memberships">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">08</span> Academic Memberships</h2>
+        <div class="timeline">
+          <article class="entry">
+            <div class="entry__meta">2026 — Present</div>
+            <div class="entry__body">
+              <h3 class="entry__title">Association for Computational Linguistics (ACL)</h3>
+              <p class="entry__sub">Member</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="section section--alt" id="contact">
       <div class="container contact">
-        <h2 class="section__title"><span class="section__num">08</span> Contact</h2>
+        <h2 class="section__title"><span class="section__num">09</span> Contact</h2>
         <p class="contact__lead">
           I'm always happy to discuss research, collaboration, or opportunities in NLP and
           computational linguistics. The best way to reach me is by email.
